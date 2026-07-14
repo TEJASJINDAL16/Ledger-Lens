@@ -1,0 +1,89 @@
+canonical_city,city_code,variant
+Gurugram,GGN,Gurugram
+Gurugram,GGN,Gurgaon
+Gurugram,GGN,GGN
+Gurugram,GGN,gurgaon
+Gurugram,GGN,GURGAON
+Gurugram,GGN,Guragaon
+Bengaluru,BLR,Bengaluru
+Bengaluru,BLR,Bangalore
+Bengaluru,BLR,BLR
+Bengaluru,BLR,bangalore
+Bengaluru,BLR,BANGALORE
+Bengaluru,BLR,Bangaluru
+Mumbai,BOM,Mumbai
+Mumbai,BOM,Bombay
+Mumbai,BOM,BOM
+Mumbai,BOM,mumbai
+Mumbai,BOM,MUMBAI
+Mumbai,BOM,Mumbaii
+New Delhi,DEL,New Delhi
+New Delhi,DEL,Delhi
+New Delhi,DEL,DEL
+New Delhi,DEL,new delhi
+New Delhi,DEL,NEW DELHI
+New Delhi,DEL,N Delhi
+Chennai,MAA,Chennai
+Chennai,MAA,Madras
+Chennai,MAA,MAA
+Chennai,MAA,chennai
+Chennai,MAA,CHENNAI
+Chennai,MAA,Chenai
+Hyderabad,HYD,Hyderabad
+Hyderabad,HYD,HYD
+Hyderabad,HYD,hyderabad
+Hyderabad,HYD,HYDERABAD
+Hyderabad,HYD,Secundrabad
+Hyderabad,HYD,Hyd
+Kolkata,CCU,Kolkata
+Kolkata,CCU,Calcutta
+Kolkata,CCU,CCU
+Kolkata,CCU,kolkata
+Kolkata,CCU,KOLKATA
+Kolkata,CCU,Kol
+Pune,PNQ,Pune
+Pune,PNQ,Poona
+Pune,PNQ,PNQ
+Pune,PNQ,pune
+Pune,PNQ,PUNE
+Pune,PNQ,Puna
+Ahmedabad,AMD,Ahmedabad
+Ahmedabad,AMD,Amdavad
+Ahmedabad,AMD,AMD
+Ahmedabad,AMD,ahmedabad
+Ahmedabad,AMD,AHMEDABAD
+Jaipur,JAI,Jaipur
+Jaipur,JAI,JAI
+Jaipur,JAI,jaipur
+Jaipur,JAI,JAIPUR
+Jaipur,JAI,Jaypur
+Lucknow,LKO,Lucknow
+Lucknow,LKO,LKO
+Lucknow,LKO,lucknow
+Lucknow,LKO,LUCKNOW
+Lucknow,LKO,Lakhnau
+Chandigarh,IXC,Chandigarh
+Chandigarh,IXC,IXC
+Chandigarh,IXC,chandigarh
+Chandigarh,IXC,CHANDIGARH
+Chandigarh,IXC,Chd
+Noida,NOIDA,Noida
+Noida,NOIDA,noida
+Noida,NOIDA,NOIDA
+Noida,NOIDA,Greater Noida
+Noida,NOIDA,Gr Noida
+Kochi,COK,Kochi
+Kochi,COK,Cochin
+Kochi,COK,COK
+Kochi,COK,kochi
+Kochi,COK,KOCHI
+Indore,IDR,Indore
+Indore,IDR,IDR
+Indore,IDR,indore
+Indore,IDR,INDORE
+Indore,IDR,Indor
+Coimbatore,CJB,Coimbatore
+Coimbatore,CJB,CJB
+Coimbatore,CJB,coimbatore
+Coimbatore,CJB,COIMBATORE
+Coimbatore,CJB,Kovai

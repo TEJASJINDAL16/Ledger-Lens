@@ -1,0 +1,230 @@
+merchant_id,canonical_name,alias,mcc,category
+M001,Amazon,AMAZON,5411,Online Marketplace
+M001,Amazon,AMAZON.IN,5411,Online Marketplace
+M001,Amazon,AMZN MKTP IN,5411,Online Marketplace
+M001,Amazon,AMAZON INDIA,5411,Online Marketplace
+M001,Amazon,AMZN IN,5411,Online Marketplace
+M002,Flipkart,FLIPKART,5411,Online Marketplace
+M002,Flipkart,FLIPKART INTERNET,5411,Online Marketplace
+M002,Flipkart,FLIPKART COM,5411,Online Marketplace
+M002,Flipkart,FK INTERNET PVT,5411,Online Marketplace
+M003,Myntra,MYNTRA,5651,Apparel
+M003,Myntra,MYNTRA DESIGNS,5651,Apparel
+M003,Myntra,MYNTRA JABONG,5651,Apparel
+M003,Myntra,MYNTRA COM,5651,Apparel
+M004,Ajio,AJIO,5651,Apparel
+M004,Ajio,AJIO COM,5651,Apparel
+M004,Ajio,RELIANCE AJIO,5651,Apparel
+M005,Nykaa,NYKAA,5977,Beauty & Personal Care
+M005,Nykaa,NYKAA E RETAIL,5977,Beauty & Personal Care
+M005,Nykaa,NYKAA COM,5977,Beauty & Personal Care
+M005,Nykaa,FSN E COMMERCE,5977,Beauty & Personal Care
+M006,Swiggy,SWIGGY,5812,Food Delivery
+M006,Swiggy,BUNDL TECHNOLOGIES,5812,Food Delivery
+M006,Swiggy,SWIGGY FOOD,5812,Food Delivery
+M006,Swiggy,SWIGGY ORDER,5812,Food Delivery
+M007,Zomato,ZOMATO,5812,Food Delivery
+M007,Zomato,ZOMATO ORDER,5812,Food Delivery
+M007,Zomato,ZOMATO LTD,5812,Food Delivery
+M007,Zomato,ZOMATO FOOD,5812,Food Delivery
+M008,Blue Bottle Coffee,BLUE BOTTLE COFFEE,5814,Coffee Shop
+M008,Blue Bottle Coffee,BLUE BOTTLE,5814,Coffee Shop
+M008,Blue Bottle Coffee,BLUEBOTTLE,5814,Coffee Shop
+M008,Blue Bottle Coffee,BLUE BOTL COF,5814,Coffee Shop
+M008,Blue Bottle Coffee,BLUEBOTTLECOFFEE,5814,Coffee Shop
+M009,Starbucks,STARBUCKS,5814,Coffee Shop
+M009,Starbucks,STARBUCKS COFFEE,5814,Coffee Shop
+M009,Starbucks,STARBUCKS INDIA,5814,Coffee Shop
+M009,Starbucks,TATA STARBUCKS,5814,Coffee Shop
+M010,Chaayos,CHAAYOS,5814,Coffee Shop
+M010,Chaayos,CHAAYOS TEA,5814,Coffee Shop
+M010,Chaayos,SUNSHINE TEAHOUSE,5814,Coffee Shop
+M011,Uber,UBER,4121,Ride Sharing
+M011,Uber,UBER INDIA,4121,Ride Sharing
+M011,Uber,UBER BV,4121,Ride Sharing
+M011,Uber,UBER TRIP,4121,Ride Sharing
+M011,Uber,UBER RIDES,4121,Ride Sharing
+M012,Ola,OLA,4121,Ride Sharing
+M012,Ola,OLA CABS,4121,Ride Sharing
+M012,Ola,ANI TECHNOLOGIES,4121,Ride Sharing
+M012,Ola,OLA RIDE,4121,Ride Sharing
+M013,Rapido,RAPIDO,4121,Ride Sharing
+M013,Rapido,RAPIDO BIKE,4121,Ride Sharing
+M013,Rapido,RAPIDO TAXI,4121,Ride Sharing
+M014,BigBasket,BIGBASKET,5411,Grocery
+M014,BigBasket,BIG BASKET,5411,Grocery
+M014,BigBasket,BIGBASKET COM,5411,Grocery
+M014,BigBasket,SUPERMARKET GROCERY,5411,Grocery
+M015,DMart,DMART,5411,Grocery
+M015,DMart,D MART,5411,Grocery
+M015,DMart,AVENUE SUPERMARTS,5411,Grocery
+M015,DMart,DMART READY,5411,Grocery
+M016,Zepto,ZEPTO,5411,Grocery
+M016,Zepto,ZEPTO DELIVERY,5411,Grocery
+M016,Zepto,KIRANAKART,5411,Grocery
+M017,Blinkit,BLINKIT,5411,Grocery
+M017,Blinkit,BLINKIT COMMERCE,5411,Grocery
+M017,Blinkit,GROFERS,5411,Grocery
+M017,Blinkit,BLINKIT ORDER,5411,Grocery
+M018,Reliance Digital,RELIANCE DIGITAL,5732,Electronics
+M018,Reliance Digital,REL DIGITAL,5732,Electronics
+M018,Reliance Digital,RELIANCE DIG,5732,Electronics
+M018,Reliance Digital,RELIANCE RETAIL DIGITAL,5732,Electronics
+M019,Croma,CROMA,5732,Electronics
+M019,Croma,CROMA ELECTRONICS,5732,Electronics
+M019,Croma,INFINITI RETAIL,5732,Electronics
+M019,Croma,TATA CROMA,5732,Electronics
+M020,Vijay Sales,VIJAY SALES,5732,Electronics
+M020,Vijay Sales,VIJAY ELECTRONICS,5732,Electronics
+M020,Vijay Sales,VIJAY SALES STORE,5732,Electronics
+M021,Apple,APPLE,5732,Electronics
+M021,Apple,APPLE STORE,5732,Electronics
+M021,Apple,APPLE COM,5732,Electronics
+M021,Apple,APPLE INDIA,5732,Electronics
+M021,Apple,APPLE INC,5732,Electronics
+M022,Netflix,NETFLIX,4899,Streaming
+M022,Netflix,NETFLIX COM,4899,Streaming
+M022,Netflix,NETFLIX INTL,4899,Streaming
+M022,Netflix,NETFLIX SERVICES,4899,Streaming
+M023,Spotify,SPOTIFY,4899,Streaming
+M023,Spotify,SPOTIFY INDIA,4899,Streaming
+M023,Spotify,SPOTIFY AB,4899,Streaming
+M023,Spotify,SPOTIFY PREMIUM,4899,Streaming
+M024,Hotstar,HOTSTAR,4899,Streaming
+M024,Hotstar,DISNEY HOTSTAR,4899,Streaming
+M024,Hotstar,DISNEY PLUS HOTSTAR,4899,Streaming
+M024,Hotstar,HOTSTAR PREMIUM,4899,Streaming
+M025,Amazon Prime Video,AMAZON PRIME VIDEO,4899,Streaming
+M025,Amazon Prime Video,PRIME VIDEO,4899,Streaming
+M025,Amazon Prime Video,AMAZON PRIME,4899,Streaming
+M026,IndiGo,INDIGO,3000,Airlines
+M026,IndiGo,INDIGO AIRLINES,3000,Airlines
+M026,IndiGo,INTERGLOBE AVIATION,3000,Airlines
+M026,IndiGo,6E INDIGO,3000,Airlines
+M026,IndiGo,INDIGO 6E,3000,Airlines
+M027,Air India,AIR INDIA,3000,Airlines
+M027,Air India,AIRINDIA,3000,Airlines
+M027,Air India,AIR INDIA LTD,3000,Airlines
+M027,Air India,AI AIRLINES,3000,Airlines
+M028,SpiceJet,SPICEJET,3000,Airlines
+M028,SpiceJet,SPICE JET,3000,Airlines
+M028,SpiceJet,SPICEJET LTD,3000,Airlines
+M029,Vistara,VISTARA,3000,Airlines
+M029,Vistara,TATA VISTARA,3000,Airlines
+M029,Vistara,VISTARA AIRLINES,3000,Airlines
+M029,Vistara,TATA SIA AIRLINES,3000,Airlines
+M030,IRCTC,IRCTC,4112,Railways
+M030,IRCTC,IRCTC ETICKET,4112,Railways
+M030,IRCTC,IRCTC ETICKETING,4112,Railways
+M030,IRCTC,IRCTC RAIL,4112,Railways
+M031,MakeMyTrip,MAKEMYTRIP,4722,Travel Agency
+M031,MakeMyTrip,MAKE MY TRIP,4722,Travel Agency
+M031,MakeMyTrip,MMT INDIA,4722,Travel Agency
+M031,MakeMyTrip,MAKEMYTRIP COM,4722,Travel Agency
+M032,Cleartrip,CLEARTRIP,4722,Travel Agency
+M032,Cleartrip,CLEARTRIP COM,4722,Travel Agency
+M032,Cleartrip,CLEARTRIP PVT,4722,Travel Agency
+M033,HPCL,HPCL,5541,Fuel
+M033,HPCL,HINDUSTAN PETROLEUM,5541,Fuel
+M033,HPCL,HP PETROL,5541,Fuel
+M033,HPCL,HPCL FUEL,5541,Fuel
+M034,Indian Oil,INDIAN OIL,5541,Fuel
+M034,Indian Oil,IOCL,5541,Fuel
+M034,Indian Oil,INDIAN OIL CORP,5541,Fuel
+M034,Indian Oil,IOC PETROL,5541,Fuel
+M035,Bharat Petroleum,BHARAT PETROLEUM,5541,Fuel
+M035,Bharat Petroleum,BPCL,5541,Fuel
+M035,Bharat Petroleum,BP PETROL,5541,Fuel
+M035,Bharat Petroleum,BPCL FUEL,5541,Fuel
+M036,Reliance Petrol,RELIANCE PETROL,5541,Fuel
+M036,Reliance Petrol,RELIANCE BP,5541,Fuel
+M036,Reliance Petrol,RELIANCE FUEL,5541,Fuel
+M036,Reliance Petrol,JIO BP FUEL,5541,Fuel
+M037,Tata Play,TATA PLAY,4899,DTH / Telecom
+M037,Tata Play,TATA SKY,4899,DTH / Telecom
+M037,Tata Play,TATAPLAY,4899,DTH / Telecom
+M038,Jio,JIO,4814,Telecom
+M038,Jio,RELIANCE JIO,4814,Telecom
+M038,Jio,JIO RECHARGE,4814,Telecom
+M038,Jio,JIO PLATFORMS,4814,Telecom
+M039,Airtel,AIRTEL,4814,Telecom
+M039,Airtel,BHARTI AIRTEL,4814,Telecom
+M039,Airtel,AIRTEL RECHARGE,4814,Telecom
+M039,Airtel,AIRTEL PAYMENTS,4814,Telecom
+M040,Vi,VI,4814,Telecom
+M040,Vi,VODAFONE IDEA,4814,Telecom
+M040,Vi,VODAFONE,4814,Telecom
+M040,Vi,VI RECHARGE,4814,Telecom
+M041,PharmEasy,PHARMEASY,5912,Pharmacy
+M041,PharmEasy,PHARM EASY,5912,Pharmacy
+M041,PharmEasy,PHARMEASY COM,5912,Pharmacy
+M042,Apollo Pharmacy,APOLLO PHARMACY,5912,Pharmacy
+M042,Apollo Pharmacy,APOLLO HOSPITALS PHARMACY,5912,Pharmacy
+M042,Apollo Pharmacy,APOLLO MEDICAL,5912,Pharmacy
+M042,Apollo Pharmacy,APOLLO PHARM,5912,Pharmacy
+M043,Decathlon,DECATHLON,5941,Sporting Goods
+M043,Decathlon,DECATHLON SPORTS,5941,Sporting Goods
+M043,Decathlon,DECATHLON INDIA,5941,Sporting Goods
+M044,Cult.fit,CULTFIT,7941,Fitness
+M044,Cult.fit,CULT FIT,7941,Fitness
+M044,Cult.fit,CUREFIT,7941,Fitness
+M044,Cult.fit,CURE FIT,7941,Fitness
+M045,PVR INOX,PVR INOX,7832,Entertainment
+M045,PVR INOX,PVR CINEMAS,7832,Entertainment
+M045,PVR INOX,PVR LTD,7832,Entertainment
+M045,PVR INOX,INOX LEISURE,7832,Entertainment
+M045,PVR INOX,PVR,7832,Entertainment
+M046,BookMyShow,BOOKMYSHOW,7832,Entertainment
+M046,BookMyShow,BOOK MY SHOW,7832,Entertainment
+M046,BookMyShow,BMS TICKETS,7832,Entertainment
+M046,BookMyShow,BOOKMYSHOW COM,7832,Entertainment
+M047,Lenskart,LENSKART,8043,Eyewear
+M047,Lenskart,LENSKART COM,8043,Eyewear
+M047,Lenskart,LENSKART SOLUTIONS,8043,Eyewear
+M048,Titan Eye Plus,TITAN EYE PLUS,8043,Eyewear
+M048,Titan Eye Plus,TITAN EYE,8043,Eyewear
+M048,Titan Eye Plus,TITAN EYEPLUS,8043,Eyewear
+M049,Tanishq,TANISHQ,5944,Jewellery
+M049,Tanishq,TANISHQ JEWELLERY,5944,Jewellery
+M049,Tanishq,TITAN TANISHQ,5944,Jewellery
+M049,Tanishq,TANISHQ STORE,5944,Jewellery
+M050,IKEA,IKEA,5712,Home Furnishing
+M050,IKEA,IKEA INDIA,5712,Home Furnishing
+M050,IKEA,IKEA STORE,5712,Home Furnishing
+M050,IKEA,INGKA CENTRES,5712,Home Furnishing
+M051,Urban Company,URBAN COMPANY,7349,Home Services
+M051,Urban Company,URBANCOMPANY,7349,Home Services
+M051,Urban Company,URBAN CLAP,7349,Home Services
+M051,Urban Company,URBANCLAP,7349,Home Services
+M052,Dominos,DOMINOS,5812,Quick Service Restaurant
+M052,Dominos,DOMINOS PIZZA,5812,Quick Service Restaurant
+M052,Dominos,JUBILANT FOODWORKS,5812,Quick Service Restaurant
+M052,Dominos,DOMINOS INDIA,5812,Quick Service Restaurant
+M053,McDonalds,MCDONALDS,5814,Quick Service Restaurant
+M053,McDonalds,MC DONALDS,5814,Quick Service Restaurant
+M053,McDonalds,MCDONALD,5814,Quick Service Restaurant
+M053,McDonalds,WESTLIFE FOODWORLD,5814,Quick Service Restaurant
+M054,Haldirams,HALDIRAMS,5812,Quick Service Restaurant
+M054,Haldirams,HALDIRAM,5812,Quick Service Restaurant
+M054,Haldirams,HALDIRAMS RESTAURANT,5812,Quick Service Restaurant
+M055,Saravana Bhavan,SARAVANA BHAVAN,5812,Restaurant
+M055,Saravana Bhavan,HOTEL SARAVANA BHAVAN,5812,Restaurant
+M055,Saravana Bhavan,SARAVANA BHAVAN REST,5812,Restaurant
+M055,Saravana Bhavan,SARAVANA BHAVAN RESTAURANT,5812,Restaurant
+M056,Practo,PRACTO,8011,Healthcare
+M056,Practo,PRACTO TECHNOLOGIES,8011,Healthcare
+M056,Practo,PRACTO COM,8011,Healthcare
+M057,Max Healthcare,MAX HEALTHCARE,8011,Healthcare
+M057,Max Healthcare,MAX HOSPITAL,8011,Healthcare
+M057,Max Healthcare,MAX SUPER SPECIALTY,8011,Healthcare
+M057,Max Healthcare,MAX HEALTH,8011,Healthcare
+M058,Meesho,MEESHO,5411,Online Marketplace
+M058,Meesho,MEESHO INC,5411,Online Marketplace
+M058,Meesho,FASHNEAR TECHNOLOGIES,5411,Online Marketplace
+M059,Pepperfry,PEPPERFRY,5712,Home Furnishing
+M059,Pepperfry,PEPPERFRY COM,5712,Home Furnishing
+M059,Pepperfry,TRENDSUTRA PLATFORM,5712,Home Furnishing
+M060,Boat,BOAT,5732,Electronics
+M060,Boat,BOAT LIFESTYLE,5732,Electronics
+M060,Boat,IMAGINE MARKETING,5732,Electronics
+M060,Boat,BOAT AUDIO,5732,Electronics

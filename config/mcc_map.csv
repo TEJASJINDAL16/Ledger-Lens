@@ -1,0 +1,24 @@
+mcc,category,category_group
+3000,Airlines,Travel
+4112,Railways,Travel
+4121,Ride Sharing,Transportation
+4722,Travel Agency,Travel
+4814,Telecom,Utilities
+4899,Streaming,Entertainment
+5411,Grocery,Retail
+5541,Fuel,Transportation
+5651,Apparel,Retail
+5712,Home Furnishing,Retail
+5732,Electronics,Retail
+5812,Food Delivery,Food & Beverage
+5814,Coffee Shop,Food & Beverage
+5912,Pharmacy,Healthcare
+5941,Sporting Goods,Retail
+5944,Jewellery,Retail
+5977,Beauty & Personal Care,Retail
+7349,Home Services,Services
+7832,Entertainment,Entertainment
+7941,Fitness,Services
+8011,Healthcare,Healthcare
+8043,Eyewear,Healthcare
+9999,Unclassified,Unclassified

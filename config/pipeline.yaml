@@ -1,0 +1,142 @@
+# LedgerLens pipeline configuration
+# Every tunable number lives here. No magic numbers in code.
+
+# --- Data generation ---
+seed: 42
+num_rows: 250000
+num_accounts: 5000
+time_span_months: 18
+
+# --- Defect injection rates (Section 5.3) ---
+defect_rates:
+  impossible_dates: 0.001
+  paren_negatives: 0.02
+  usd_currency: 0.12
+  missing_currency: 0.15
+  missing_mcc: 0.25
+  sentinel_nulls: 0.08
+  exact_duplicates: 0.01
+  near_duplicates: 0.015
+  extreme_outliers: 0.002
+  schema_drift: 0.0005
+
+# --- Descriptor corruption ---
+# Number of corruption transforms applied per row (uniform random in range)
+corruption_transforms_min: 1
+corruption_transforms_max: 3
+
+# --- Merchant resolver (Section 6) ---
+fuzzy_threshold: 88
+dbscan_eps: 0.35
+dbscan_min_samples: 3
+tfidf_ngram_range: [2, 4]
+tfidf_analyzer: "char_wb"
+
+# --- Dedup ---
+near_dup_window_seconds: 120
+
+# --- Outliers ---
+outlier_mad_z: 3.5
+
+# --- Currency ---
+base_currency: "INR"
+
+# --- Sentinel values treated as null ---
+sentinel_values:
+  - "NA"
+  - "N/A"
+  - "-"
+  - "NULL"
+  - "null"
+  - "None"
+  - "none"
+  - "-999"
+  - ""
+
+# --- Date formats to attempt during parsing (tried in order) ---
+date_formats:
+  - "%Y-%m-%d %H:%M:%S"
+  - "%d/%m/%Y %H:%M"
+  - "%m-%d-%Y %H:%M:%S"
+  - "%d %b %Y %H:%M"
+  - "%Y%m%dT%H%M%S"
+
+# --- Aggregator prefixes (stripped by Tier 0 of the resolver) ---
+aggregator_prefixes:
+  - "SQ"
+  - "TST"
+  - "PAYPAL"
+  - "PP"
+  - "SP"
+  - "GOOGLE"
+  - "APL"
+
+# --- Channel normalization ---
+channel_map:
+  POS: "POS"
+  pos: "POS"
+  ONLINE: "ONLINE"
+  online: "ONLINE"
+  "e-comm": "ONLINE"
+  "E-COMM": "ONLINE"
+  "ecomm": "ONLINE"
+  ATM: "ATM"
+  atm: "ATM"
+
+# --- Country normalization ---
+country_map:
+  IN: "IN"
+  India: "IN"
+  IND: "IN"
+  in: "IN"
+  india: "IN"
+  US: "US"
+  USA: "US"
+  GB: "GB"
+  UK: "GB"
+
+# --- Amount generation distributions (lognormal mu, sigma by category) ---
+amount_distributions:
+  Coffee Shop:       {mu: 5.2, sigma: 0.5}
+  Grocery:           {mu: 6.5, sigma: 0.8}
+  Food Delivery:     {mu: 6.0, sigma: 0.6}
+  Quick Service Restaurant: {mu: 5.8, sigma: 0.5}
+  Restaurant:        {mu: 6.5, sigma: 0.7}
+  Online Marketplace: {mu: 7.0, sigma: 1.2}
+  Apparel:           {mu: 7.0, sigma: 0.9}
+  Electronics:       {mu: 8.5, sigma: 1.0}
+  Ride Sharing:      {mu: 5.5, sigma: 0.7}
+  Airlines:          {mu: 8.8, sigma: 0.8}
+  Railways:          {mu: 7.0, sigma: 0.6}
+  Travel Agency:     {mu: 8.5, sigma: 1.0}
+  Fuel:              {mu: 7.0, sigma: 0.5}
+  Streaming:         {mu: 5.5, sigma: 0.3}
+  Telecom:           {mu: 6.0, sigma: 0.4}
+  DTH / Telecom:     {mu: 5.8, sigma: 0.3}
+  Pharmacy:          {mu: 6.0, sigma: 0.8}
+  Sporting Goods:    {mu: 7.5, sigma: 0.8}
+  Fitness:           {mu: 7.0, sigma: 0.5}
+  Entertainment:     {mu: 6.0, sigma: 0.6}
+  Eyewear:           {mu: 7.5, sigma: 0.7}
+  Jewellery:         {mu: 9.0, sigma: 1.0}
+  Home Furnishing:   {mu: 8.0, sigma: 1.0}
+  Home Services:     {mu: 6.5, sigma: 0.7}
+  Healthcare:        {mu: 7.5, sigma: 1.0}
+  Beauty & Personal Care: {mu: 6.5, sigma: 0.8}
+
+# --- Paths ---
+paths:
+  raw_csv: "data/raw/transactions_raw.csv"
+  truth_parquet: "data/truth/transactions_truth.parquet"
+  quarantine_dir: "data/quarantine"
+  silver_parquet: "data/interim/silver.parquet"
+  warehouse_db: "data/warehouse/ledgerlens.duckdb"
+  profile_html: "reports/profile_before.html"
+  scorecard_md: "reports/scorecard.md"
+  scorecard_json: "reports/scorecard.json"
+  defect_log: "data/raw/defect_log.csv"
+  log_dir: "logs"
+  merchant_dictionary: "config/merchant_dictionary.csv"
+  city_canonical: "config/city_canonical.csv"
+  mcc_map: "config/mcc_map.csv"
+  fx_rates: "config/fx_rates.csv"
