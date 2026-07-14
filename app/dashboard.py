@@ -134,25 +134,18 @@ with tab1:
         # Create a date column for the x-axis
         health_df["period"] = pd.to_datetime(health_df["year"].astype(str) + "-" + health_df["month"].astype(str) + "-01")
         
-        # Figma purple color: #6366F1
-        base = alt.Chart(health_df).encode(
-            x=alt.X('period:T', title='Month')
-        )
-        
-        bars = base.mark_bar(color="#6366F1", size=20).encode(
+        # Clean multi-line chart for Health Score over time
+        chart = alt.Chart(health_df).mark_line(point=True, strokeWidth=3).encode(
+            x=alt.X('period:T', title='Month'),
             y=alt.Y('data_health_score:Q', title='Health Score', scale=alt.Scale(domain=[70, 100])),
+            color=alt.Color('channel:N', title='Channel', scale=alt.Scale(scheme='set2')),
             tooltip=['channel', 'period', 'data_health_score']
-        )
+        ).properties(title="")
         
         # Add the 90% SLA red line
         sla_line = alt.Chart(pd.DataFrame({'y': [90]})).mark_rule(color='#9B1C1C', strokeDash=[4,4]).encode(y='y:Q')
         
-        # Layer them first, then facet
-        chart = alt.layer(bars, sla_line, data=health_df).facet(
-            column=alt.Column('channel:N', title='Channel')
-        ).properties(title="")
-        
-        st.altair_chart(chart, use_container_width=False)
+        st.altair_chart(chart + sla_line, use_container_width=True)
 
 # ---------------------------------------------------------
 # TAB 2: MERCHANT INTELLIGENCE
