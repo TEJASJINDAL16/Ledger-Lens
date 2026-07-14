@@ -4,9 +4,7 @@ Defines the contracts for Bronze and Silver stages. Failing rows
 are caught and quarantined, never dropped silently.
 """
 
-import pandas as pd
-import pandera as pa
-from pandera.engines.pandas_engine import DateTime
+import pandera.pandas as pa
 
 # ---------------------------------------------------------------------------
 # Bronze Gate

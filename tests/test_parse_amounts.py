@@ -1,8 +1,6 @@
 """Tests for the amount parsing module."""
 
 import pandas as pd
-import pytest
-
 from src.clean.parse_amounts import clean_amounts
 
 
