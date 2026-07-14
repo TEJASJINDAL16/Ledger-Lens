@@ -22,9 +22,12 @@ st.set_page_config(page_title="LedgerLens", page_icon="💳", layout="wide")
 custom_css = """
 <style>
     /* Global Font & Background adjustments to feel clean */
-    .reportview-container {
-        background: #FFFFFF;
-        font-family: 'Inter', sans-serif;
+    .stApp {
+        background-color: #FFFFFF !important;
+    }
+    .stMarkdown, .stText, p, h1, h2, h3, h4, h5, h6, span {
+        color: #111827 !important;
+        font-family: 'Inter', sans-serif !important;
     }
     /* Style metric cards to match Figma */
     [data-testid="stMetricValue"] {
