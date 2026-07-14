@@ -19,9 +19,13 @@ bronze: ## Run Phase 2 Bronze gate
 	@echo "Running Phase 2 Bronze gate..."
 	$(PYTHON) -m src.run_bronze
 
-silver: ## Run Phase 3 Silver cleaning
-	@echo "Running Phase 3 Silver cleaning..."
+silver: ## Run Phase 3-5 Silver cleaning and resolution
+	@echo "Running Phase 3-5 Silver cleaning..."
 	$(PYTHON) -m src.run_silver
+
+gold: ## Run Phase 6 Warehouse load
+	@echo "Running Phase 6 Gold warehouse load..."
+	$(PYTHON) -m src.load_warehouse
 
 pipeline: ## Run the full pipeline (Bronze -> Silver -> Gold)
 	$(PYTHON) -m src.run_pipeline
@@ -39,5 +43,5 @@ clean: ## Remove all generated artifacts
 	rm -rf logs/*.log logs/*.csv
 	@echo "Cleaned all generated artifacts."
 
-all: clean data profile bronze silver ## Run everything up to silver
-	@echo "Pipeline complete up to Phase 3."
+all: clean data profile bronze silver gold ## Run everything up to gold
+	@echo "Pipeline complete up to Phase 6."
