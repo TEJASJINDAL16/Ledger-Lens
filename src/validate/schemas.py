@@ -5,6 +5,7 @@ are caught and quarantined, never dropped silently.
 """
 
 import pandera.pandas as pa
+from pandera.engines.pandas_engine import DateTime
 
 # ---------------------------------------------------------------------------
 # Bronze Gate
