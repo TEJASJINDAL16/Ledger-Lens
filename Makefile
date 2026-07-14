@@ -35,6 +35,10 @@ benchmark: ## Run Phase 7 Polars benchmark
 	@echo "Running Phase 7 Polars benchmark..."
 	$(PYTHON) -m src.benchmark_polars
 
+dashboard: ## Run Phase 8 Streamlit dashboard
+	@echo "Starting Streamlit dashboard..."
+	.venv/bin/streamlit run app/dashboard.py
+
 pipeline: ## Run the full pipeline (Bronze -> Silver -> Gold)
 	$(PYTHON) -m src.run_pipeline
 
