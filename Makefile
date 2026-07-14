@@ -27,6 +27,14 @@ gold: ## Run Phase 6 Warehouse load
 	@echo "Running Phase 6 Gold warehouse load..."
 	$(PYTHON) -m src.load_warehouse
 
+scorecard: ## Generate Phase 7 Scorecard
+	@echo "Generating Phase 7 Scorecard..."
+	$(PYTHON) -m src.scorecard
+
+benchmark: ## Run Phase 7 Polars benchmark
+	@echo "Running Phase 7 Polars benchmark..."
+	$(PYTHON) -m src.benchmark_polars
+
 pipeline: ## Run the full pipeline (Bronze -> Silver -> Gold)
 	$(PYTHON) -m src.run_pipeline
 
@@ -43,5 +51,5 @@ clean: ## Remove all generated artifacts
 	rm -rf logs/*.log logs/*.csv
 	@echo "Cleaned all generated artifacts."
 
-all: clean data profile bronze silver gold ## Run everything up to gold
-	@echo "Pipeline complete up to Phase 6."
+all: clean data profile bronze silver gold scorecard benchmark ## Run everything
+	@echo "Pipeline complete up to Phase 7."
